@@ -169,8 +169,8 @@ align-self: center;
 
 .assisting-pic {
     display:flex;
-    max-width:60vw;
-    height:auto;
+    max-height:60vh;
+    /* height:auto; */
     border-radius: 50px;
   
     
