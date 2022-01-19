@@ -1,132 +1,121 @@
-@keyframes slideInFromBottom {
-    100% {
-      transform: translateY(-100%);
-    }
-    0% {
-      transform: translateY(0%);
-    }
-  }
-
 .app-splash-screen {
   background: white;
-  position:fixed;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  height:100%;
-  width:100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
   transition: left 2s;
- 
 }
 
 .loading-image {
-    display:flex;
+  display: flex;
 }
 
 .shade {
-    position:fixed;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    display:flex; 
-    height:100%;
-    width:100%;
-    background:white;
-     animation: 3s ease-out 0s 1 forwards slideInFromBottom; 
-    /* -webkit-animation: fadeInFromNone 0.5s ease-in;
-    -moz-animation: fadeInFromNone 0.5s ease-in;
-    -o-animation: fadeInFromNone 0.5s ease-in;
-    animation: fadeInFromNone 4s ease-out; */
-   
-   
-   
-  
-   
-
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: white;
+  animation: 3s ease-out 0s 1 forwards slideInFromBottom;
+  -webkit-animation: 3s ease-out 0s 1 forwards slideInFromBottom;
+  -moz-animation: 3s ease-out 0s 1 forwards slideInFromBottom;
+  -o-animation: 3s ease-out 0s 1 forwards slideInFromBottom;
 }
 .chakra {
-    display:flex;
-    margin-left:2.45%;
-    z-index: -1;
-    -webkit-animation: fadeInFromNone 5s ease-in;
-    -moz-animation: fadeInFromNone 5s ease-in;
-    -o-animation: fadeInFromNone 5s ease-in;
-    animation: fadeInFromNone 5s ease-out;
-   
+  display: flex;
+  padding-top:1rem;
+  margin-left: 2.75%;
+  z-index: -1;
+  -webkit-animation: fadeInFromNone 5s ease-in;
+  -moz-animation: fadeInFromNone 5s ease-in;
+  -o-animation: fadeInFromNone 5s ease-in;
+  animation: fadeInFromNone 5s ease-out;
 }
 
-/* all opacity styles */
-
+@keyframes slideInFromBottom {
+  100% {
+    transform: translateY(-100%);
+  }
+  0% {
+    transform: translateY(0%);
+  }
+}
 
 @-webkit-keyframes fadeInFromNone {
   0% {
-      display: none;
-      opacity: 0;
+    display: none;
+    opacity: 0;
   }
 
   1% {
-      display: block;
-      opacity: 0;
+    display: block;
+    opacity: 0;
   }
 
   100% {
-      display: block;
-      opacity: 1;
+    display: block;
+    opacity: 1;
   }
 }
 
 @-moz-keyframes fadeInFromNone {
   0% {
-      display: none;
-      opacity: 0;
+    display: none;
+    opacity: 0;
   }
 
   1% {
-      display: block;
-      opacity: 0;
+    display: block;
+    opacity: 0;
   }
 
   100% {
-      display: block;
-      opacity: 1;
+    display: block;
+    opacity: 1;
   }
 }
 
 @-o-keyframes fadeInFromNone {
   100% {
-      display: none;
-      opacity: 0;
+    display: none;
+    opacity: 0;
   }
 
   0% {
-      display: block;
-      opacity: 0;
+    display: block;
+    opacity: 0;
   }
 
   1% {
-      display: block;
-      opacity: 1;
+    display: block;
+    opacity: 1;
   }
 }
 
 @keyframes fadeInFromNone {
   0% {
-      display: none;
-      opacity: 1;
+    display: none;
+    opacity: 1;
   }
 
   1% {
-      display: block;
-      opacity: 1;
+    display: block;
+    opacity: 1;
   }
 
   100% {
-      display: block;
-      opacity: 0;
+    display: block;
+    opacity: 0;
   }
 }
