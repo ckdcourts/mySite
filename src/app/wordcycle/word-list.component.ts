@@ -42,12 +42,6 @@ constructor(
     } 
     
   });
-  // this.breakpointObserver
-  // .observe(['(min-width: 1024px)  '])
-  // .subscribe((state: BreakpointState) => {
-  //   if (state.matches) {
-  //     this.showWordList = 3;
-  //   } 
-  // });
+ 
  }
 }
