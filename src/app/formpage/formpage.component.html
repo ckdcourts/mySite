@@ -6,11 +6,11 @@
         </svg>
     </div>
     <div class = "orb">
-<img src="../../assets/images/yogasymbol2.png" class="yoga-icon">
+<img src="../../assets/images/yogasymbol2.png" class="yoga-icon" alt="yoga-flower">
 </div>
 
 <h1 class = "form-header" style="background-image: url('../../assets/images/tropicalpic.jpg')" >Interested?</h1>
-<h3 class ="form-header-contact" style="background-image: url('../../assets/images/tropicalpic.jpg')">Schedule a consultation</h3>
+<h3 class ="form-header-contact" style="background-image: url('../../assets/images/tropicalpic.jpg')">Schedule a free consultation</h3>
 <div class = "form-wrapper">
 <form action="https://formsubmit.co/not.just.asana.yoga@gmail.com" method="POST">
     <textarea type="text" name="name" required placeholder="Name" class="form-name"></textarea>
@@ -22,29 +22,35 @@
 
 </div>
 <div class="pic-border">
-<img class="assisting-pic" src="../../assets/images/courtsyoga.jpg">
+<img class="assisting-pic" src="../../assets/images/courtsyoga.jpg" alt="courtney doing yoga">
 </div>
 <a id="schedule-anchor"></a>
-<h4 class ="class-sched-header" style="background-image: url('../../assets/images/tropicalpic.jpg')">Current Schedule</h4>
+<h4 class ="class-sched-header" style="background-image: url('../../assets/images/tropicalpic.jpg')">Group Class Schedule</h4>
 <h5 class ="class-sched-subheader" style="background-image: url('../../assets/images/tropicalpic.jpg')">Virtual & In-Person</h5>
+<div [ngClass]="showFormMedia == 1 ? 'form-mobile' : 'form-desktop'">
 <p class ="class-sched" style="background-image: url('../../assets/images/tropicalpic.jpg')">
-    Sunday: 4PM Flow 
+     Sunday:<br> 4PM Flow 
     <a href="https://www.thrivepilatesyoga.com/"> @Thrive</a> 
     <br>
-    Monday: 7AM TRX + Yoga Flow  
+    Monday: <br>7AM TRX + Yoga Flow  
     <a href="https://www.thrivepilatesyoga.com/"> @Thrive</a> 
     <br>
-    Monday: 12PM Open Levels   
+    12PM Open Levels   
     <a href="https://www.tulayogaphilly.com/"> @Tula</a> 
     <br>
-    Tuesday: 7AM Flow 
+    Tuesday:<br> 7AM Flow 
     <a href="https://www.thrivepilatesyoga.com/"> @Thrive</a> 
     <br>
-    Tuesday: 8PM Yin + Restore 
+    8PM Yin + Restore 
     <a href="https://www.thrivepilatesyoga.com/"> @Thrive</a> 
     <br>
-    Friday: 5:30PM Flow 
+    Friday:<br> 5:30PM Flow 
     <a href="https://www.thrivepilatesyoga.com/">   @Thrive</a>
 </p>
- <a href="https://www.instagram.com/not.just.asana/"> <i class="fa fa-instagram" ></i></a>
 </div>
+<div class = "social-media">
+ <a href="https://www.instagram.com/not.just.asana/"> <i class="fa fa-instagram" id="ig" ></i></a>
+ <a href="https://www.youtube.com/channel/UCXCnXP3jp5wpJMJPcle-2FQ/featured"> <i class="fa fa-youtube-play"  id="yt"></i></a>
+</div>
+</div>
+

@@ -22,6 +22,7 @@ import { FormpageComponent } from './formpage/formpage.component';
 import { AboutComponent } from './about/about.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
+import { ServicesComponent } from './services/services.component';
 
 
 @NgModule({
@@ -33,6 +34,8 @@ import { HomeComponent } from './home/home.component';
     //main screen components
     SplashScreenComponent,
     LandingComponent,
+    BiocomponentComponent,
+    FormpageComponent,
    
 
     //word cycle components
@@ -40,9 +43,12 @@ import { HomeComponent } from './home/home.component';
     WordListComponent,
     WordDirective,
     WordAppComponent,
-    BiocomponentComponent,
-    FormpageComponent,
+    // 
+
+
+    
     AboutComponent,
+    ServicesComponent,
   ],
   entryComponents: [WordListComponent],
   bootstrap: [AppComponent],

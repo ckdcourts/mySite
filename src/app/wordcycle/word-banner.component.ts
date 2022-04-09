@@ -15,7 +15,7 @@ import { WordComponent } from './word.component';
   selector: 'app-word-banner',
   styleUrls: ['.././wordcycle/word-banner.component.css'],
   template: `
- 
+  
     <div class="word-banner">
       <ng-template [word-host] ></ng-template>
     </div>
